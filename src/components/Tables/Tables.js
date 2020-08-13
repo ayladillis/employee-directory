@@ -12,6 +12,7 @@ class App extends React.Component {
 
     sort = () => {
         const newEmployeesArray = this.state.employees;
+        console.log("sort")
         if (this.state.sortBy === 'alphabetical') {
             this.setState({
                 sortBy: 'reverse',
@@ -65,7 +66,7 @@ class App extends React.Component {
     render(){
         return (
             <>
-            <nav1 className="navbar navbar-light bg-light">
+            <nav className="navbar navbar-light bg-light">
             <input
                 className="form-control mr-sm-2"
                 type="search"
@@ -73,7 +74,7 @@ class App extends React.Component {
                 aria-label="Search"
                 onChange={this.filter}
             />
-            </nav1>
+            </nav>
 
         <table className="table table-striped">
             <thead>
