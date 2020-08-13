@@ -1,7 +1,7 @@
 import React from "react";
 import "./Table.css"
 
-function Table () {
+function Table (props) {
     return (
         <table className="table table-striped">
   <thead>
@@ -9,69 +9,15 @@ function Table () {
       <th scope="col">Avatar</th>
       <th scope="col">Name</th>
       <th scope="col">Email</th>
-      <th scope="col">Phone Number</th>
+      <th scope="col">Number</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row"> </th>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <th scope="row"> </th>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <th scope="row"> </th>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <th scope="row"> </th>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <th scope="row"> </th>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <th scope="row"> </th>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <th scope="row"> </th>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <th scope="row"> </th>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <th scope="row"> </th>
-      <td> </td>
-      <td> </td>
-      <td> </td>
+      <th scope="row"><img src={props.image}/></th>
+      <td> { props.name } </td>
+      <td> { props.email } </td>
+      <td> { props.number } </td>
     </tr>
   </tbody>
 </table>
