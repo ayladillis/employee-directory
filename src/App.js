@@ -1,16 +1,18 @@
 import React from 'react';
 import Jumbotron from "./components/Jumbotron/Jumbotron";
 import Navbar from "./components/Navbar/Navbar";
-import Table from "./components/Table/Table"
+import Tables from "./components/Tables/Tables"
 import logo from './logo.svg';
 import './App.css';
+import "./components/Search/Search.css"
+
 
 function App() {
   return (
     <div className="container">
       <Jumbotron />
       <Navbar />
-      <Table />
+      <Tables />
     </div>
   );
 }

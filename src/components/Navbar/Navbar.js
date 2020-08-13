@@ -3,8 +3,8 @@ import "./Navbar.css"
 
 function Navbar() {
     return (
-        <nav class="navbar navbar-light bg-light row-fluid">
-            <a class="navbar-brand span12" href="#">Welcome</a>
+        <nav className="navbar navbar-light bg-light row-fluid">
+            <a className="navbar-brand span12" href="#">Welcome</a>
         </nav>
     );
 }
