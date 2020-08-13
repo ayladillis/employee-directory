@@ -6,9 +6,9 @@ function Table (props) {
         <tbody>
             <tr>
             <th scope="row"><img src={props.image}/></th>
-            <td> { props.name } </td>
-            <td> { props.email } </td>
-            <td> { props.number } </td>
+                <td> { props.name } </td>
+                <td> { props.email } </td>
+                <td> { props.number } </td>
             </tr>
         </tbody>
     );

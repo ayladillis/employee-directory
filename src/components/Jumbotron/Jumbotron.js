@@ -7,7 +7,7 @@ function Jumbotron() {
 <div className="header">
   <div className="card">
     <h1 className="card-title">Employee Directory</h1>
-    <p className="card-text">This directory allows you to filter employee by name as well as sort alphabetically by email!</p>
+    <p className="card-text">This directory allows you to search for employee by name as well as sort alphabetically by email!</p>
   </div>
 </div>
   );
