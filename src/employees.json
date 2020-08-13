@@ -49,22 +49,34 @@
 
     {
         "id": 7,
-        "image": " "
+        "image": "https://media.istockphoto.com/photos/positivity-produces-success-picture-id1132793417?k=6&m=1132793417&s=612x612&w=0&h=-v-zYomA2sFfE_UP2eRjWqgk6PAfitVktECQDZn-y4o=",
+        "name": "David Hudson",
+        "email": "dhudson@gmail.com",
+        "number": "(805) 458-8249"
     },
 
     {
         "id": 8,
-        "image": " "
+        "image": "https://images.squarespace-cdn.com/content/v1/584b0ec1d2b8577118027730/1498678749635-RLOJXR08FB7X9ZDRXF1Y/ke17ZwdGBToddI8pDm48kO7Rg1Gpu728H4UqxUIfecJZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PICj5SdZHY9KUswDgTH3eH8sP5PrkY15Dr7CE2CPSRiTEKMshLAGzx4R3EDFOm1kBS/c.jpg",
+        "name": "Erica Wilson",
+        "email": "ewilson@gmail.com",
+        "number": "(416) 887-8576"
     },
 
     {
         "id": 9,
-        "image": " "
+        "image": "https://static.livebooks.com/b18c364831dd4d4ca0794ece1769bb78/i/c040b06ed096431cb4d020939f290d89/1/4SoifmQp45JMgBnHp7ed2/maryland-headshot.jpg",
+        "name": "Jess Young",
+        "email": "eyoung@gmail.com",
+        "number": "(505) 778-4598"
     },
 
     {
         "id": 10,
-        "image": " "
+        "image": "https://garybarragan.com/wp-content/uploads/BusinessHeadshots/Brett-Trusty-Unified-Trust-Company-0093-Louisville-Headshots-Portrait-Photographer-Gary-Barragan-.jpg",
+        "name": "Carl Sutherland",
+        "email": "cSutherland@gmail.com",
+        "number": "(245) 890-3345"
     }
 
 ]
