@@ -1,8 +1,6 @@
 # employee-directory
 
-
-
-![Web Screenshot]()
+![Web Screenshot](https://media.giphy.com/media/M9IYj1pEfQg9QdHpND/giphy.gif)
 
 
 ## Table of Content
@@ -14,7 +12,7 @@
 - Author 
 
 ## Objective
-
+For this app, I created an employee directory with React. This app allows the user to search for employees by name as well as sort emails alphabetically. Employee images, names, emails and phone numers are displayed.
 
 
 ## Deploy Link
