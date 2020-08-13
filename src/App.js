@@ -1,5 +1,5 @@
 import React from 'react';
-import Jumbotron from "./components/Jumbotron/Jumbotron";
+// import Jumbotron from "./components/Jumbotron/Jumbotron";
 import Navbar from "./components/Navbar/Navbar";
 import Tables from "./components/Tables/Tables"
 import logo from './logo.svg';
@@ -10,8 +10,8 @@ import "./components/Search/Search.css"
 function App() {
   return (
     <div className="container">
-      <Jumbotron />
       <Navbar />
+      {/* <Jumbotron /> */}
       <Tables />
     </div>
   );

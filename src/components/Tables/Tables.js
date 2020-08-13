@@ -70,7 +70,7 @@ class App extends React.Component {
             <input
                 className="form-control mr-sm-2"
                 type="search"
-                placeholder="Search"
+                placeholder="Search for an employee"
                 aria-label="Search"
                 onChange={this.filter}
             />
@@ -82,7 +82,7 @@ class App extends React.Component {
                 <th scope="col">Image</th>
                 <th scope="col">Name</th>
                 <th scope="col">
-                    <button onClick={this.sort}>Email</button>
+                    <button class="btn btn-light" onClick={this.sort}>Email</button>
                 </th>
                 <th scope="col">Number</th>
                 </tr>
