@@ -34,11 +34,13 @@ Then open in your preferred text editor:
 
 ## Code Highlight
 
+On line 13 I rendered my sort function using hooks like 'setState' on line 17 and 30. I sorted alphabetically in the first 'if' statment then returned to alphabetical order in the second 'if' statement on line 30. This sorts through the employees emails. 
 
-![Screenshot]()
+![Screenshot](./img/sort.png)
 
+This filter function again uses hooks such as on line 49 and 54, this allows users to search for specific employees.
 
-![Screenshot]()
+![Screenshot](./img/filter.png)
 
 
 
